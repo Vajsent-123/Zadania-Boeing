@@ -1,5 +1,4 @@
-
-def str_in_list (sample_list):
+def str_in_list(sample_list: list) -> str:
     my_string = ''
     for element in sample_list:
         if isinstance(element, str) == 1:
